@@ -6,7 +6,6 @@ import Hero from '../../components/Hero'
 export default function GetStarted() {
   return (
     <>
-      <Navbar />
       <Hero 
         title="Get Started with Codecamp Advantage"
         subtitle="Your gateway to a thriving career in web development"
@@ -70,8 +69,8 @@ export default function GetStarted() {
             <p>Building your network now can lead to exciting opportunities in the future.</p>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">6. Look to Your Bright Future</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">6. Look to Your Bright Future</h2>
             <p className="mb-4">As you begin this journey, keep your eyes on the horizon. Every line of code you write, every problem you solve, and every concept you master is a step toward a fulfilling career in tech. Visualize yourself:</p>
             <ul className="list-disc list-inside mb-4">
               <li>Building innovative web applications that impact millions</li>
