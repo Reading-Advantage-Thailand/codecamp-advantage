@@ -4,16 +4,17 @@ import Footer from "../../components/Footer";
 export default function GetStarted() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Hero
-        title="Get Started with Codecamp Advantage"
-        subtitle="Your journey to becoming a skilled web developer starts here"
-      >
-        <p className="mt-6 text-lg leading-8 text-gray-600">
-          Welcome to Codecamp Advantage, your gateway to a thriving career in web development! We're excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
-        </p>
-      </Hero>
+      <main className="flex-grow">
+        <Hero
+          title="Get Started with Codecamp Advantage"
+          subtitle="Your journey to becoming a skilled web developer starts here"
+        >
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Welcome to Codecamp Advantage, your gateway to a thriving career in web development! We're excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
+          </p>
+        </Hero>
 
-      <div className="bg-white py-24 sm:py-32">
+        <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-indigo-600">Get Started</h2>
@@ -112,7 +113,7 @@ export default function GetStarted() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );
