@@ -14,7 +14,8 @@ export default function TermsOfServicePage() {
         subtitle="Please read these terms carefully before using our services"
       />
       <main className="container mx-auto px-4 py-8">
-        <section className="prose max-w-none">
+        <section className="prose max-w-none" aria-labelledby="terms-of-service">
+          <h1 id="terms-of-service" className="sr-only">Terms of Service</h1>
           <h2>1. Acceptance of Terms</h2>
           <p>
             By accessing or using Codecamp Advantage's services, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access our services.

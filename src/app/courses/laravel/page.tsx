@@ -9,7 +9,7 @@ export const metadata = {
 export default function LaravelCoursePage() {
   return (
     <CourseLayout title="Laravel Full-Stack Development Bootcamp">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8" role="main" aria-label="Course Information">
         <CourseSection title="Course Overview">
           <p className="text-gray-700">
             This comprehensive bootcamp is designed to transform aspiring developers into proficient full-stack professionals, 

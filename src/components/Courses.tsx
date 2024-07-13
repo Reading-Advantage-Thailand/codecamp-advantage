@@ -8,21 +8,25 @@ const Courses: React.FC = () => {
       title: 'Next.js 14 / GCP Camp',
       description: 'Master server-side rendering and static site generation with Google Cloud Platform.',
       image: '/next-js-logo.png',
+      slug: 'nextjs',
     },
     {
       title: 'T3 Stack Camp',
       description: 'Build full-stack, type-safe applications with ease using Next.js, Supabase, and Vercel.',
       image: '/t3-stack-logo.png',
+      slug: 't3',
     },
     {
       title: 'MERN Stack Camp',
       description: 'Develop powerful web apps with MongoDB, Express, React, and Node.js, deployed to AWS.',
       image: '/mern-stack-logo.jpeg',
+      slug: 'mern',
     },
     {
       title: 'Laravel Full-Stack Camp',
       description: 'Create robust applications with Laravel and Vue.js on Digital Ocean with Laravel Forge.',
       image: '/laravel-logo.png',
+      slug: 'laravel',
     },
   ]
 

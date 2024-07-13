@@ -54,10 +54,10 @@ export default function PrivacyPolicyPage() {
 
           <h2>8. Contact Us</h2>
           <p>
-            If you have any questions about this privacy policy, please contact us at [Your Contact Information].
+            If you have any questions about this privacy policy, please contact us at privacy@codecampadvantage.com.
           </p>
 
-          <p>Last Updated: [Current Date]</p>
+          <p>Last Updated: {new Date().toISOString().split('T')[0]}</p>
         </section>
       </main>
       <Footer />

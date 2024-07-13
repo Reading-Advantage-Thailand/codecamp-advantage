@@ -10,7 +10,7 @@ const CoursesComparisonPage: React.FC = () => {
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-6">Tech Stack Bootcamp Comparison</h1>
         <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-gray-300">
+          <table className="min-w-full bg-white border border-gray-300">
           <thead>
             <tr className="bg-gray-100">
               <th className="border px-4 py-2">Aspect</th>
