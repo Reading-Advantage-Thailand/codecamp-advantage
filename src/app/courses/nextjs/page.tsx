@@ -1,5 +1,4 @@
-import CourseLayout from '../../components/CourseLayout';
-import CourseSection from '../../components/CourseSection';
+import CourseSection from '../../../components/CourseSection';
 
 export const metadata = {
   title: 'Next.js 14 with React, TypeScript, and GCP Development Camp - Codecamp Advantage',
@@ -8,7 +7,8 @@ export const metadata = {
 
 export default function NextJSCoursePage() {
   return (
-    <CourseLayout title="Next.js 14 with React, TypeScript, and GCP Development Camp">
+    <>
+      <h1 className="text-3xl font-bold mb-6">Next.js 14 with React, TypeScript, and GCP Development Camp</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <CourseSection title="Course Overview">
           <p className="text-gray-700">
