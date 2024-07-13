@@ -1,17 +1,20 @@
 import Link from 'next/link'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
+import Hero from '../../components/Hero'
 
 export default function GetStarted() {
   return (
     <>
       <Navbar />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-          <h1 className="text-4xl font-bold mb-8 text-center">Get Started with Codecamp Advantage</h1>
-          
+      <Hero 
+        title="Get Started with Codecamp Advantage"
+        subtitle="Your gateway to a thriving career in web development"
+      />
+      <main className="flex min-h-screen flex-col items-center justify-between p-8 md:p-24">
+        <div className="z-10 max-w-3xl w-full">
           <p className="mb-8 text-lg">
-            Welcome to Codecamp Advantage, your gateway to a thriving career in web development! We're excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
+            Welcome to Codecamp Advantage! We're excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
           </p>
 
           <section className="mb-12">
