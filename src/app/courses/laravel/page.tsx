@@ -9,7 +9,8 @@ export const metadata = {
 
 export default function LaravelCoursePage() {
   return (
-    <CourseLayout title="Laravel Full-Stack Development Bootcamp">
+    <>
+      <h1 className="text-3xl font-bold mb-6">Laravel Full-Stack Development Bootcamp</h1>
       <div className="mb-8 flex justify-center">
         <Image
           src="/laravel-logo.png"
