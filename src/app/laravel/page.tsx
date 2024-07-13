@@ -1,9 +1,8 @@
-import React from 'react';
 import Image from 'next/image';
 
-const LaravelPage: React.FC = () => {
+export default function LaravelPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6">Laravel Full-Stack Development Bootcamp</h1>
       
       <div className="mb-8">
@@ -13,6 +12,7 @@ const LaravelPage: React.FC = () => {
           width={200}
           height={200}
           className="rounded-lg"
+          priority
         />
       </div>
 
@@ -20,7 +20,7 @@ const LaravelPage: React.FC = () => {
         <h2 className="text-2xl font-semibold mb-4">Course Overview</h2>
         <p>
           This comprehensive bootcamp is designed to transform aspiring developers into proficient full-stack professionals, 
-          specializing in the Laravel ecosystem. Through a blend of part-time instruction and hands-on projects, you'll gain 
+          specializing in the Laravel ecosystem. Through a blend of part-time instruction and hands-on projects, you&apos;ll gain 
           the skills to build robust, scalable web applications using PHP, Laravel, MySQL, and Vue.js.
         </p>
       </section>
