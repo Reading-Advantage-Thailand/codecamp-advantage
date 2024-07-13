@@ -89,7 +89,9 @@ const CoursesComparisonPage: React.FC = () => {
             <tr>
               <td className="border px-4 py-2 font-semibold">Deployment</td>
               <td className="border px-4 py-2">Google Cloud Platform</td>
-              <td className="border px-4 py-2">Vercel</td>
+              <t
+
+d className="border px-4 py-2">Vercel</td>
               <td className="border px-4 py-2">AWS (EC2, S3, CloudFront)</td>
               <td className="border px-4 py-2">DigitalOcean, Laravel Forge</td>
             </tr>
