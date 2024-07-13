@@ -107,7 +107,7 @@ export default function T3CoursePage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">How to Enroll</h2>
               <p className="text-gray-700">
                 Visit our website to fill out the application form. Our admissions team will contact you 
-                to schedule an interview and provide next steps.
+                to discuss your goals and provide next steps.
               </p>
             </div>
           </div>
