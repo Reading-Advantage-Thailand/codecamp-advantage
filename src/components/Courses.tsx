@@ -45,7 +45,7 @@ const Courses: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">{course.title}</h3>
               <p className="mb-4">{course.description}</p>
-              <a href="#" className="text-blue-500 hover:underline">Learn More</a>
+              <Link href={`/courses/${course.slug}`} className="text-blue-500 hover:underline">Learn More</Link>
             </div>
           ))}
         </div>
