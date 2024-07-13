@@ -75,7 +75,9 @@ const CoursesComparisonPage: React.FC = () => {
               <td className="border px-4 py-2">CSS Modules, Tailwind CSS</td>
               <td className="border px-4 py-2">Tailwind CSS</td>
               <td className="border px-4 py-2">CSS-in-JS, Sass</td>
-              <td className="border px-4 py-2">Blade, CSS, Sass</td>
+              <td className="border px-4 py-2">Blade,
+
+ CSS, Sass</td>
             </tr>
             <tr>
               <td className="border px-4 py-2 font-semibold">State Management</td>
@@ -114,17 +116,17 @@ const CoursesComparisonPage: React.FC = () => {
             </tr>
           </tbody>
         </table>
-      </div>
-      <div className="mt-8">
-        <h2 className="text-2xl font-bold mb-4">Stack Comparisons</h2>
-        <p className="mb-4">Each of these stacks has its strengths and is well-suited for different types of projects and developer preferences:</p>
-        <ul className="list-disc pl-6 space-y-2">
-          <li><strong><Link href="/courses/nextjs" className="text-blue-600 hover:underline">Next.js 14 Camp</Link></strong> is ideal for developers who want to build high-performance React applications with server-side rendering capabilities. It's particularly well-suited for content-heavy websites and e-commerce platforms.</li>
-          <li><strong><Link href="/courses/t3" className="text-blue-600 hover:underline">T3 Stack Camp</Link></strong> is perfect for developers who prioritize type safety and want a cohesive, opinionated full-stack framework. It's great for building modern web applications with excellent developer experience.</li>
-          <li><strong><Link href="/courses/mern" className="text-blue-600 hover:underline">MERN Stack Camp</Link></strong> offers a classic JavaScript-everywhere approach, making it a versatile choice for a wide range of web applications. It's particularly strong for building scalable single-page applications and real-time features.</li>
-          <li><strong><Link href="/courses/laravel" className="text-blue-600 hover:underline">Laravel Full-Stack Camp</Link></strong> is excellent for developers who appreciate convention over configuration and want a batteries-included framework. It's particularly strong for rapid application development and building robust backend systems.</li>
-        </ul>
-        <p className="mt-4">Choosing the right stack depends on your project requirements, team expertise, and career goals. All four stacks are in high demand and offer excellent career prospects in the current job market.</p>
+        </div>
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold mb-4">Stack Comparisons</h2>
+          <p className="mb-4">Each of these stacks has its strengths and is well-suited for different types of projects and developer preferences:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong><Link href="/courses/nextjs" className="text-blue-600 hover:underline">Next.js 14 Camp</Link></strong> is ideal for developers who want to build high-performance React applications with server-side rendering capabilities. It's particularly well-suited for content-heavy websites and e-commerce platforms.</li>
+            <li><strong><Link href="/courses/t3" className="text-blue-600 hover:underline">T3 Stack Camp</Link></strong> is perfect for developers who prioritize type safety and want a cohesive, opinionated full-stack framework. It's great for building modern web applications with excellent developer experience.</li>
+            <li><strong><Link href="/courses/mern" className="text-blue-600 hover:underline">MERN Stack Camp</Link></strong> offers a classic JavaScript-everywhere approach, making it a versatile choice for a wide range of web applications. It's particularly strong for building scalable single-page applications and real-time features.</li>
+            <li><strong><Link href="/courses/laravel" className="text-blue-600 hover:underline">Laravel Full-Stack Camp</Link></strong> is excellent for developers who appreciate convention over configuration and want a batteries-included framework. It's particularly strong for rapid application development and building robust backend systems.</li>
+          </ul>
+          <p className="mt-4">Choosing the right stack depends on your project requirements, team expertise, and career goals. All four stacks are in high demand and offer excellent career prospects in the current job market.</p>
         </div>
       </div>
       <Footer />
