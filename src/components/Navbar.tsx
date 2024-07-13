@@ -30,7 +30,8 @@ const Navbar = () => {
               type="button"
               className="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
-              aria-expanded="false"
+              aria-expanded={isOpen}
+              aria-label="Toggle mobile menu"
             >
               <span className="sr-only">Open main menu</span>
               {!isOpen ? (
