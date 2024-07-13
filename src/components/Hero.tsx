@@ -2,8 +2,9 @@ import React from 'react'
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20">
-      <div className="container mx-auto px-6 text-center">
+    <section className="relative bg-cover bg-center bg-no-repeat py-32" style={{backgroundImage: "url('/hero-background.jpg')"}}>
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="relative container mx-auto px-6 text-center text-white z-10">
         <h1 className="text-6xl font-bold mb-4">Codecamp Advantage</h1>
         <h2 className="text-5xl font-bold mb-4">Master Full-Stack Development with AI</h2>
         <p className="text-xl mb-8">Personalized learning experience powered by AI. Choose your tech stack and start coding today!</p>
