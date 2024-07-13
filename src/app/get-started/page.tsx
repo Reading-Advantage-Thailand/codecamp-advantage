@@ -11,18 +11,18 @@ export default function GetStarted() {
         title="Get Started with Codecamp Advantage"
         subtitle="Your gateway to a thriving career in web development"
       />
-      <main className="flex min-h-screen flex-col items-center justify-between p-8 md:p-24">
-        <div className="z-10 max-w-3xl w-full">
-          <p className="mb-8 text-lg">
+      <main className="flex min-h-screen flex-col items-center justify-between p-4 md:p-8 lg:p-24">
+        <div className="z-10 max-w-4xl w-full">
+          <p className="mb-8 text-lg text-center">
             Welcome to Codecamp Advantage! We're excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
           </p>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">1. Choose Your Path</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">1. Choose Your Path</h2>
             <p className="mb-4">
-              Your first step is to select the course that aligns with your goals. Whether you're a complete beginner or looking to level up your skills, we have the perfect program for you. Contact our admissions team to discuss your options:
+              Select the course that aligns with your goals. Whether you're a complete beginner or looking to level up your skills, we have the perfect program for you. Contact our admissions team to discuss your options:
             </p>
-            <p className="mb-4">
+            <p className="mb-4 font-semibold">
               Email: admin@reading-advantage.com
             </p>
             <p>Our team will guide you through the course options and help you make the best choice for your career aspirations.</p>
