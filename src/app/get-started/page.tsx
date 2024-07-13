@@ -10,7 +10,7 @@ export default function GetStarted() {
           subtitle="Your journey to becoming a skilled web developer starts here"
         >
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Welcome to Codecamp Advantage, your gateway to a thriving career in web development! We're excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
+            Welcome to Codecamp Advantage, your gateway to a thriving career in web development! We&apos;re excited to embark on this transformative journey with you. Follow these steps to begin your adventure into the world of coding:
           </p>
         </Hero>
 
