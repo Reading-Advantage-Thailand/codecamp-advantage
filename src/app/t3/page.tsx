@@ -4,6 +4,9 @@ import Footer from '../../components/Footer'
 import Hero from '../../components/Hero'
 import Footer from '../../components/Footer'
 
+import Hero from '../../components/Hero'
+import Footer from '../../components/Footer'
+
 export const metadata = {
   title: 'T3 Stack Development Bootcamp - Codecamp Advantage',
   description: 'Master T3 stack development with our intensive bootcamp',
