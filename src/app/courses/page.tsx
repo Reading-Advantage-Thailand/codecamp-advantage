@@ -75,9 +75,7 @@ const CoursesComparisonPage: React.FC = () => {
               <td className="border px-4 py-2">CSS Modules, Tailwind CSS</td>
               <td className="border px-4 py-2">Tailwind CSS</td>
               <td className="border px-4 py-2">CSS-in-JS, Sass</td>
-              <td className="border px-4 py-2">Blade,
-
- CSS, Sass</td>
+              <td className="border px-4 py-2">Blade, CSS, Sass</td>
             </tr>
             <tr>
               <td className="border px-4 py-2 font-semibold">State Management</td>
