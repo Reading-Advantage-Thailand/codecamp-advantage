@@ -1,21 +1,13 @@
-import Head from 'next/head'
-import Hero from '../../components/Hero'
-import Features from '../../components/Features'
-import Courses from '../../components/Courses'
-import Pricing from '../../components/Pricing'
-import Testimonials from '../../components/Testimonials'
-import FAQ from '../../components/FAQ'
 import Footer from '../../components/Footer'
+
+export const metadata = {
+  title: 'MERN Stack Development Bootcamp - Codecamp Advantage',
+  description: 'Master MERN stack development with our intensive bootcamp',
+}
 
 export default function MERNCoursePage() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <Head>
-        <title>MERN Stack Development Bootcamp - Codecamp Advantage</title>
-        <meta name="description" content="Master MERN stack development with our intensive bootcamp" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
         <div className="py-12 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
