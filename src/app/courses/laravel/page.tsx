@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import CourseSection from '../../../components/CourseSection';
+import CourseLayout from '../../../components/CourseLayout';
 
 export const metadata = {
   title: 'Laravel Full-Stack Development Bootcamp - Codecamp Advantage',
@@ -8,8 +9,7 @@ export const metadata = {
 
 export default function LaravelCoursePage() {
   return (
-    <>
-      <h1 className="text-3xl font-bold mb-6">Laravel Full-Stack Development Bootcamp</h1>
+    <CourseLayout title="Laravel Full-Stack Development Bootcamp">
       <div className="mb-8 flex justify-center">
         <Image
           src="/laravel-logo.png"

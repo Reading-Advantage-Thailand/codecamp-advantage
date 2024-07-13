@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Footer from '../../components/Footer'
 
 export default function CoursesLayout({
@@ -6,14 +5,9 @@ export default function CoursesLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
         {children}
       </main>
-
       <Footer />
     </>
   )
