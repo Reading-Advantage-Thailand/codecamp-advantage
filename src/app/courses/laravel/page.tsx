@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import CourseSection from '../../../components/CourseSection';
-import CourseLayout from '../../../components/CourseLayout';
+import CourseSection from '@/components/CourseSection';
+import CourseLayout from '@/components/CourseLayout';
 
 export const metadata = {
   title: 'Laravel Full-Stack Development Bootcamp - Codecamp Advantage',
