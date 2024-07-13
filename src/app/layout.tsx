@@ -4,10 +4,11 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "~/trpc/react";
+import Navbar from "~/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Codecamp Advantage",
-  description: "Learn Full-Stack Development with AI-powered personalized learning",
+  title: "Reading Advantage (Thailand)",
+  description: "Revolutionizing Education Through Innovation",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <TRPCReactProvider>
           <div className="min-h-screen bg-gray-100 flex flex-col">
+            <Navbar />
             {children}
           </div>
         </TRPCReactProvider>
