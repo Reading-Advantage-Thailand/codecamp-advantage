@@ -1,5 +1,7 @@
 import Footer from '../../components/Footer'
 
+import Footer from '../../components/Footer'
+
 export default function CoursesLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
