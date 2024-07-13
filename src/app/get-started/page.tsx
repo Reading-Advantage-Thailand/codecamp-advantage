@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 export default function GetStarted() {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
+      <main className="flex-grow" aria-label="Get started guide">
         <Hero
           title="Get Started with Codecamp Advantage"
           subtitle="Your journey to becoming a skilled web developer starts here"
