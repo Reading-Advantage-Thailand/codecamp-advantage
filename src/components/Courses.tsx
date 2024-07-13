@@ -15,7 +15,7 @@ const Courses: React.FC = () => {
     },
     {
       title: 'MERN Stack Camp',
-      description: 'Develop powerful web apps with MongoDB, Express, React, and Node.js.',
+      description: 'Develop powerful web apps with MongoDB, Express, React, and Node.js, deployed to AWS.',
       image: '/mern-stack-logo.jpeg',
     },
     {
