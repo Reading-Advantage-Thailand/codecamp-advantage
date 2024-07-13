@@ -28,8 +28,8 @@ export default function GetStarted() {
             <p>Our team will guide you through the course options and help you make the best choice for your career aspirations.</p>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">2. Secure Your Spot</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">2. Secure Your Spot</h2>
             <p className="mb-4">Once you've chosen your course, it's time to reserve your place:</p>
             <ul className="list-disc list-inside mb-4">
               <li>Units 0-1 are completely free! This allows you to experience our cutting-edge platform and ensure it's the right fit for you.</li>
@@ -38,8 +38,8 @@ export default function GetStarted() {
             </ul>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">3. Set Up Your Account</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">3. Set Up Your Account</h2>
             <p className="mb-4">To access our platform, you'll use your GitHub credentials. This integration allows for seamless code sharing and version control throughout the course.</p>
             <ul className="list-disc list-inside mb-4">
               <li>If you don't have a GitHub account, create one at <a href="https://github.com" className="text-blue-600 hover:underline">github.com</a>.</li>
@@ -47,8 +47,8 @@ export default function GetStarted() {
             </ul>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">4. Embrace the AI-Enhanced Learning Experience</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">4. Embrace the AI-Enhanced Learning Experience</h2>
             <p className="mb-4">Our platform leverages advanced AI to provide a personalized and interactive learning experience. To get the most out of your course:</p>
             <ul className="list-disc list-inside mb-4">
               <li><strong>Engage with Integrity:</strong> Our AI is here to assist, not to do the work for you. Approach each interaction with honesty and a genuine desire to learn.</li>
@@ -59,8 +59,8 @@ export default function GetStarted() {
             <p>Remember, in coding as in life, you get out what you put in. Your dedication and hard work here will directly translate to your future success.</p>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">5. Connect with Your Coding Community</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">5. Connect with Your Coding Community</h2>
             <p className="mb-4">You're not on this journey alone! Take advantage of our vibrant community (coming soon!):</p>
             <ul className="list-disc list-inside mb-4">
               <li>Participate in discussion forums</li>
@@ -81,8 +81,8 @@ export default function GetStarted() {
             <p>Your future in coding starts here, and it's brilliantly bright!</p>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Ready to Begin?</h2>
+          <section className="mb-12 bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4">Ready to Begin?</h2>
             <p className="mb-4">
               The world of web development is waiting for you. Your next great achievement, your "aha!" moment, your future career breakthrough—it all starts with the first step.
             </p>
