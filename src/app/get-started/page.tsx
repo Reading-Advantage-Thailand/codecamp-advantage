@@ -1,8 +1,9 @@
 import Hero from "../../components/Hero";
+import Footer from "../../components/Footer";
 
 export default function GetStarted() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Hero
         title="Get Started with Codecamp Advantage"
         subtitle="Your journey to becoming a skilled web developer starts here"
@@ -112,6 +113,7 @@ export default function GetStarted() {
           </div>
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
