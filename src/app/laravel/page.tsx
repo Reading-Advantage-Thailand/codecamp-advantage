@@ -102,7 +102,7 @@ export default function LaravelPage() {
           <li>Emphasis on modern PHP practices and Laravel best practices</li>
         </ul>
       </section>
-    </div>
+    </main>
   );
 };
 
