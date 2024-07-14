@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import AuthButton from './AuthButton';
 import AuthButton from './AuthButton';
+import AuthButton from './AuthButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
