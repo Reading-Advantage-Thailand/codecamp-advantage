@@ -13,7 +13,7 @@ export default function LoginPage() {
               Sign in to your account
             </h2>
           </div>
-          <form className="mt-8 space-y-6" action="#" method="POST">
+          <form className="mt-8 space-y-6" action="#" method="POST" aria-label="Sign in or sign up form">
             <input type="hidden" name="remember" defaultValue="true" />
             <div className="rounded-md shadow-sm -space-y-px">
               <div>
