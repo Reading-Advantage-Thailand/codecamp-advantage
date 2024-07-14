@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import AuthButton from './AuthButton';
+import AuthButton from './AuthButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +25,8 @@ const Navbar = () => {
                 <Link href="/get-started" className="text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">Get Started</Link>
               </div>
             </div>
-            <AuthButton />
           </div>
+          <AuthButton />
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
