@@ -1,4 +1,6 @@
-import { useRouter } from 'next/router'
+'use client'
+
+import { useRouter } from 'next/navigation'
 import { createClient } from '@/utils/supabase/client'
 import { useState, useEffect } from 'react'
 
@@ -9,8 +11,14 @@ const AuthButton = () => {
   const [user, setUser] = useState(null)
 
   useEffect(() => {
+    const getUser = async () => {
+      const { data: { user } } = await supabase.auth.getUser()
+      setUser(user)
+    }
+    getUser()
+
     const { data: authListener } = supabase.auth.onAuthStateChange(
-      (event, session) => {
+      async (event, session) => {
         setUser(session?.user ?? null)
       }
     )
@@ -18,7 +26,7 @@ const AuthButton = () => {
     return () => {
       authListener.subscription.unsubscribe()
     }
-  }, [])
+  }, [supabase.auth])
 
   const handleAuth = async () => {
     if (user) {
