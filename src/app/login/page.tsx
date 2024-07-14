@@ -60,7 +60,7 @@ export default function LoginPage() {
               </div>
 
               <div className="text-sm">
-                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500" aria-label="Forgot your password? Click here to reset">
                   Forgot your password?
                 </a>
               </div>
