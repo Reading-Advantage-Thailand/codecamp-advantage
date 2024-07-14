@@ -1,5 +1,3 @@
-import React from 'react';
-
 const students = [
   { id: 1, name: 'Alice Johnson', course: 'React Fundamentals', progress: 75 },
   { id: 2, name: 'Bob Smith', course: 'Node.js Basics', progress: 60 },
