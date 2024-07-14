@@ -58,6 +58,9 @@ const Navbar = () => {
             <Link href="/about" className="text-gray-800 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">About</Link>
             <Link href="/get-started" className="text-gray-800 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Get Started</Link>
           </div>
+          <div className="px-2 pt-2 pb-3">
+            <AuthButton />
+          </div>
         </div>
       )}
     </nav>

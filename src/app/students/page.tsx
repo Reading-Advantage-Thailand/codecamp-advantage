@@ -10,6 +10,7 @@ export default function StudentProgressPage() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">Student Progress</h1>
       <table className="min-w-full bg-white">
+        <caption className="sr-only">Student Progress Overview</caption>
         <thead>
           <tr>
             <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
