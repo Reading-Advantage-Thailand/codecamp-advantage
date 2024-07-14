@@ -40,6 +40,7 @@ export default function StudentProgressPage() {
                     <div
                       style={{ width: `${student.progress}%` }}
                       className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
+                      aria-label={`Progress: ${student.progress}%`}
                     ></div>
                   </div>
                   <div className="text-right">{student.progress}%</div>
