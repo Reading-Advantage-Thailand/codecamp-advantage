@@ -1,13 +1,26 @@
 import { useRouter } from 'next/router'
 import { createClient } from '@/utils/supabase/client'
+import { useState, useEffect } from 'react'
 
 const AuthButton = () => {
   const router = useRouter()
   const supabase = createClient()
 
+  const [user, setUser] = useState(null)
+
+  useEffect(() => {
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        setUser(session?.user ?? null)
+      }
+    )
+
+    return () => {
+      authListener.subscription.unsubscribe()
+    }
+  }, [])
+
   const handleAuth = async () => {
-    const { data: { user } } = await supabase.auth.getUser()
-    
     if (user) {
       await supabase.auth.signOut()
       router.push('/')
@@ -21,8 +34,7 @@ const AuthButton = () => {
       onClick={handleAuth}
       className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
     >
-      {/* We'll determine the button text when rendering */}
-      Login/Logout
+      {user ? 'Logout' : 'Login'}
     </button>
   )
 }
