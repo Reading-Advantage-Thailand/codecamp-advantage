@@ -28,21 +28,32 @@ const AuthButton = () => {
     }
   }, [supabase.auth])
 
-  const handleAuth = async () => {
-    if (user) {
-      await supabase.auth.signOut()
-      router.push('/')
-    } else {
-      router.push('/login')
-    }
+  const handleLogout = async () => {
+    await supabase.auth.signOut()
+    router.push('/')
+  }
+
+  const handleLogin = () => {
+    router.push('/login')
+  }
+
+  if (user) {
+    return (
+      <button
+        onClick={handleLogout}
+        className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Logout
+      </button>
+    )
   }
 
   return (
     <button
-      onClick={handleAuth}
+      onClick={handleLogin}
       className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
     >
-      {user ? 'Logout' : 'Login'}
+      Login
     </button>
   )
 }
