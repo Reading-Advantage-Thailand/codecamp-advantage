@@ -1,56 +1,76 @@
 # RR04FS Ruby on Rails + React Course Syllabus
 
-## Week 1: Development Environment Setup
-- Unit: DEV101A1
-- Description: Setting up VSCode, Git, GitHub, and essential development tools for Ruby on Rails and React.
+## Course Overview
 
-## Week 2: HTML and CSS Fundamentals
-- Unit: HTML101A1
-- Description: HTML5 semantic elements, CSS layout techniques, responsive design.
+This intensive 13-week bootcamp is designed to transform beginners into proficient full-stack developers, specializing in the Ruby on Rails and React ecosystem. The course covers Ruby on Rails, React, TypeScript, and related technologies. Students will work on five progressive projects throughout the course, each integrated with the units to provide hands-on application of learned skills.
 
-## Week 3: JavaScript Fundamentals
-- Unit: JSC201A1
-- Description: JavaScript syntax, functions, objects, asynchronous programming.
+## Course Structure and Project Integration
 
-## Week 4: Ruby Fundamentals
-- Unit: RUB501A1
-- Description: Ruby syntax, OOP, modules, file I/O.
+The bootcamp is divided into 13 units, each focusing on specific technologies and concepts. Projects are integrated into these units to provide practical application of skills as they are learned. Each unit is assigned a standardized code for easy reference across different codecamps.
 
-## Week 5: Ruby on Rails Fundamentals
-- Unit: RAI601A1
-- Description: Rails project structure, MVC architecture, Active Record.
+1. DEV101A1: Development Environment Setup (3 days)
 
-## Week 6: React Fundamentals
-- Unit: REA401A3
-- Description: React basics, components, hooks, state management adapted for use with Rails backend.
+   - Setting up VSCode, Git, GitHub, and essential development tools for Ruby on Rails and React.
+   - Project: Personal Portfolio - Setup and initialization
 
-## Week 7: Database Fundamentals
-- Unit: DBM501A3
-- Description: Relational database concepts, SQL basics adapted for MySQL.
+2. HTML101A1: HTML and CSS Fundamentals (5 days)
 
-## Week 8: Authentication and Authorization
-- Unit: AUT601A4
-- Description: User authentication, JWT, OAuth, role-based access control adapted for Devise.
+   - HTML5 semantic elements
+   - CSS layout techniques (Flexbox, Grid)
+   - Responsive web design
+   - Project: Personal Portfolio - Basic structure and styling
 
-## Week 9: API Development
-- Unit: API701A4
-- Description: RESTful API design, versioning, documentation, security adapted for Rails API.
+3. JSC201A1: JavaScript Fundamentals (7 days)
 
-## Week 10: Integrating Frontend and Backend
-- Unit: INT701A4
-- Description: Connecting frontend to backend, state management, API consumption adapted for Rails + React.
+   - JavaScript syntax, functions, objects, asynchronous programming.
+   - Project: Personal Portfolio - Adding interactive elements
 
-## Week 11: Testing and Quality Assurance
-- Unit: TES801P3
-- Description: Unit testing, integration testing, end-to-end testing partially reused for Ruby-based stack.
+4. RBY501A1: Ruby Fundamentals (5 days)
 
-## Week 12: DevOps and Deployment
-- Unit: DEP901A3
-- Description: CI/CD, cloud deployment, containerization adapted for AWS.
+   - Ruby syntax, OOP, modules, file I/O.
+   - Project: Blog Application - Ruby setup and basic types
 
-## Week 13: Performance Optimization
-- Unit: OPT1001P3
-- Description: Backend and frontend optimization, caching, load testing partially reused for Ruby-based stack.
+5. ROR601A1: Ruby on Rails Fundamentals (10 days)
 
-## Capstone Project: E-commerce Platform
-- Description: Integrate all learned skills to build a comprehensive e-commerce platform.
+   - Rails project structure, MVC architecture, ORM.
+   - Project: Blog Application - Creating Rails components
+
+6. REA401A1: React Fundamentals (7 days)
+
+   - React basics, components, hooks, state management adapted for use with Rails backend.
+   - Project: Blog Application - Implementing routing and data fetching
+
+7. DBM501A1: Database Fundamentals (7 days)
+
+   - Relational database concepts, SQL basics adapted for PostgreSQL.
+   - Project: E-commerce Platform - Database setup and product catalog
+
+8. AUT601A1: Authentication and Authorization (5 days)
+
+   - User authentication, JWT, OAuth, role-based access control adapted for Rails Authentication.
+   - Project: E-commerce Platform - User authentication and protected routes
+
+9. API701A1: API Development (7 days)
+
+   - RESTful API design, versioning, documentation, security adapted for Rails API.
+   - Project: E-commerce Platform - API routes for product and user management
+
+10. INT701A1: Integrating Frontend and Backend (7 days)
+
+    - Connecting frontend to backend, state management, API consumption adapted for Rails + React.
+    - Project: Task Management Application - TDD approach to core features
+
+11. TES801A1: Testing and Quality Assurance (7 days)
+
+    - Unit testing, integration testing, end-to-end testing partially reused for Ruby-based stacks.
+    - Project: Task Management Application - CI/CD setup and deployment
+
+12. DEP901A1: DevOps and Deployment (5 days)
+
+    - CI/CD, cloud deployment, containerization adapted for AWS.
+    - Project: Task Management Application - CI/CD setup and deployment
+
+13. OPT1001A1: Performance Optimization (5 days)
+
+    - Backend and frontend optimization, caching, load testing partially reused for Ruby-based stacks.
+    - Project: Social Media Dashboard - Optimized data fetching and rendering
