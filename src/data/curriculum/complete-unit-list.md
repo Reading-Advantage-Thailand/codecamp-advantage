@@ -7,7 +7,7 @@
    Parent Courses: All codecamps
    Adaptations:
    - DEV101A1: Adapted for Python-based stacks (Django, FastAPI)
-   - DEV101A2: Adapted for Ruby-based stack (Ruby on Rails)
+   - DEV101A2: Adapted for Nuxt.js
    - DEV101A3: Adapted for PHP-based stack (Laravel)
    - DEV101A4: Adapted for C#-based stack (ASP.NET Core)
    - DEV101A5: Adapted for Java-based stack (Spring Boot)
