@@ -193,7 +193,7 @@
     Parent Courses: MERN Stack
 
 31. DJ03FS: Django + React Course
-    Description: Comprehensive course covering Django and React integration.
+    Description: Comprehensive course covering Django and React integration, including development environment setup, HTML/CSS, JavaScript, Python, Django, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: Django+React
 
 ## Integration Units
