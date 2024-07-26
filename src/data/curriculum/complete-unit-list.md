@@ -196,6 +196,10 @@
     Description: Comprehensive course covering Django and React integration, including development environment setup, HTML/CSS, JavaScript, Python, Django, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: Django+React
 
+32. RR04FS: Ruby on Rails + React Course
+    Description: Comprehensive course covering Ruby on Rails and React integration, including development environment setup, HTML/CSS, JavaScript, Ruby, Rails, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
+    Parent Courses: Ruby on Rails+React
+
 ## Integration Units
 
 31. INT701: Integrating Frontend and Backend
