@@ -192,6 +192,10 @@
     Description: Express.js project structure, routing, middleware.
     Parent Courses: MERN Stack
 
+31. DJ03FS: Django + React Course
+    Description: Comprehensive course covering Django and React integration.
+    Parent Courses: Django+React
+
 ## Integration Units
 
 31. INT701: Integrating Frontend and Backend
