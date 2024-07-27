@@ -204,6 +204,42 @@
     Description: Comprehensive course covering ASP.NET Core and Angular integration, including development environment setup, HTML/CSS, JavaScript, C#, ASP.NET Core, Angular, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: ASP.NET Core+Angular
 
+34. ME07FS: MERN Stack Course
+    Description: Comprehensive course covering the MERN (MongoDB, Express.js, React, Node.js) stack, including development environment setup, HTML/CSS, JavaScript, TypeScript, React, Node.js, Express.js, MongoDB, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
+    Parent Courses: MERN Stack
+
+35. DEV101A5: Development Environment Setup for MERN Stack
+    Description: Setting up VSCode, Git, GitHub, Node.js, and essential development tools for MERN stack development.
+    Parent Courses: MERN Stack
+
+36. REA401A5: React Fundamentals for MERN Stack
+    Description: React basics, components, hooks, state management with Redux, and integration with MERN stack.
+    Parent Courses: MERN Stack
+
+37. EXP601: Express.js Fundamentals
+    Description: Express.js project structure, routing, middleware, and RESTful API design.
+    Parent Courses: MERN Stack
+
+38. DBM501A1: MongoDB and Mongoose
+    Description: NoSQL database concepts, MongoDB setup, Mongoose ODM, schema design, and CRUD operations.
+    Parent Courses: MERN Stack
+
+39. AUT601A10: Authentication and Authorization with JWT for MERN Stack
+    Description: JWT implementation, user authentication flows, and securing Express.js routes.
+    Parent Courses: MERN Stack
+
+40. API701A10: Advanced API Development with Express.js
+    Description: API versioning, documentation, rate limiting, file uploads, and testing for MERN stack.
+    Parent Courses: MERN Stack
+
+41. DEP901A9: DevOps and Deployment for MERN Stack
+    Description: Containerization with Docker, deploying MERN apps on Heroku, MongoDB Atlas integration, and CI/CD setup.
+    Parent Courses: MERN Stack
+
+42. INT701A10: Advanced MERN Stack Concepts and Integration
+    Description: Real-time applications with Socket.io, GraphQL implementation, serverless functions, and PWA features for MERN stack.
+    Parent Courses: MERN Stack
+
 ## Integration Units
 
 34. INT701: Integrating Frontend and Backend
