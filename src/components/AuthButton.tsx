@@ -4,11 +4,13 @@ import { useRouter } from 'next/navigation'
 import { createClient } from '@/utils/supabase/client'
 import { useState, useEffect } from 'react'
 
+import { User } from '@supabase/supabase-js'
+
 const AuthButton = () => {
   const router = useRouter()
   const supabase = createClient()
 
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState<User | null>(null)
 
   useEffect(() => {
     const getUser = async () => {
