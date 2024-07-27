@@ -173,7 +173,7 @@
     Parent Courses: Laravel+Vue.js
 
 26. ASP601: ASP.NET Core Fundamentals
-    Description: ASP.NET Core project structure, MVC architecture, middleware.
+    Description: ASP.NET Core project structure, MVC architecture, middleware, Entity Framework Core.
     Parent Courses: ASP.NET Core+Angular
 
 27. SPR601: Spring Boot Fundamentals
@@ -200,9 +200,13 @@
     Description: Comprehensive course covering Ruby on Rails and React integration, including development environment setup, HTML/CSS, JavaScript, Ruby, Rails, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: Ruby on Rails+React
 
+33. AN06FS: ASP.NET Core + Angular Course
+    Description: Comprehensive course covering ASP.NET Core and Angular integration, including development environment setup, HTML/CSS, JavaScript, C#, ASP.NET Core, Angular, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
+    Parent Courses: ASP.NET Core+Angular
+
 ## Integration Units
 
-31. INT701: Integrating Frontend and Backend
+34. INT701: Integrating Frontend and Backend
     Description: Connecting frontend to backend, state management, API consumption.
     Parent Courses: All codecamps (adapted for specific technology pairs)
     Adaptations:
