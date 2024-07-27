@@ -53,6 +53,7 @@ const Courses: React.FC = () => {
       description: 'Full JavaScript stack with Express.js, React, MongoDB, and JWT authentication. Deployed on Heroku/MongoDB Atlas.',
       image: '/mern-stack-logo.jpeg',
       slug: 'mern',
+      badge: 'Popular',
     },
     {
       code: 'SB08FS',
@@ -88,7 +89,8 @@ const Courses: React.FC = () => {
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg relative">
               {course.badge && (
                 <span className={`absolute top-2 right-2 px-2 py-1 text-xs font-bold rounded ${
-                  course.badge === 'Hot' ? 'bg-red-500 text-white' : 'bg-green-500 text-white'
+                  course.badge === 'Hot' ? 'bg-red-500 text-white' : 
+                  course.badge === 'Popular' ? 'bg-blue-500 text-white' : 'bg-green-500 text-white'
                 }`}>
                   {course.badge}
                 </span>
