@@ -1,4 +1,8 @@
-# DJ03FS Django + React Course Syllabus
+# Django + React (DJ03FS) Full-Stack Development Codecamp
+
+## Course Overview
+
+This intensive 13-week bootcamp is designed to transform beginners into proficient full-stack developers, specializing in the Django and React ecosystems. The course covers Django, React, TypeScript, and related technologies. Students will work on five progressive projects throughout the course, each integrated with the units to provide hands-on application of learned skills.
 
 ## Course Structure and Project Integration
 
@@ -6,70 +10,118 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
 
 1. DEV101A1: Development Environment Setup (3 days)
 
-   - Setting up VSCode, Git, GitHub, and essential development tools for Django and React.
+   - VSCode setup and essential extensions for Django and React development
+   - Git and GitHub basics
+   - Python and pip essentials
+   - Django project initialization and structure
    - Project: Personal Portfolio - Setup and initialization
 
-2. HTML101A1: HTML and CSS Fundamentals (5 days)
+2. HTML101: HTML and CSS Fundamentals (5 days)
 
    - HTML5 semantic elements
    - CSS layout techniques (Flexbox, Grid)
    - Responsive web design
+   - CSS Modules in React
+   - Introduction to Tailwind CSS
    - Project: Personal Portfolio - Basic structure and styling
 
-3. JSC201A1: JavaScript Fundamentals (7 days)
+3. JSC201: JavaScript Fundamentals (7 days)
 
-   - JavaScript syntax, functions, objects, asynchronous programming.
+   - JavaScript syntax and basic constructs
+   - Functions and scope
+   - Arrays, objects, and built-in methods
+   - Asynchronous JavaScript (Promises, async/await)
+   - ES6+ features
    - Project: Personal Portfolio - Adding interactive elements
 
-4. PYT501A1: Python Fundamentals (5 days)
+4. PYT501: Python Fundamentals (5 days)
 
-   - Python syntax, OOP, modules, file I/O.
+   - Python basics and its benefits in Django projects
+   - Basic types and type inference
+   - Functions, classes, and modules
+   - File I/O and error handling
    - Project: Blog Application - Python setup and basic types
 
-5. DJA601A1: Django Fundamentals (10 days)
+5. DJA601: Django Fundamentals (10 days)
 
-   - Django project structure, MVT architecture, ORM.
+   - Django project structure and configuration
+   - MVT architecture
+   - Models, Views, and Templates
+   - Django ORM and migrations
+   - Admin interface and customizations
    - Project: Blog Application - Creating Django components
 
-6. REA401A1: React Fundamentals (7 days)
+6. REA401A1: React Fundamentals for Django (7 days)
 
-   - React basics, components, hooks, state management adapted for use with Django backend.
-   - Project: Blog Application - Implementing routing and data fetching
+   - React components and JSX
+   - Props and state management
+   - Hooks (useState, useEffect, useContext, useMemo, useCallback)
+   - React patterns in Django
+   - State management with Context API and SWR
+   - Project: Blog Application - Creating React components
 
-7. DBM501A1: Database Fundamentals (7 days)
+7. DBM501: Database Design and Integration (7 days)
 
-   - Relational database concepts, SQL basics adapted for PostgreSQL.
+   - Relational database concepts
+   - PostgreSQL setup and configuration
+   - Database schema design and migrations
+   - CRUD operations with Django ORM
+   - Integration of PostgreSQL with Django
    - Project: E-commerce Platform - Database setup and product catalog
 
-8. AUT601A1: Authentication and Authorization (5 days)
+8. AUT601A1: Authentication and Authorization with Django (5 days)
 
-   - User authentication, JWT, OAuth, role-based access control adapted for Django Authentication.
+   - Setting up Django authentication
+   - Implementing various authentication providers
+   - JWT and session handling
+   - Role-based access control
+   - Securing API routes and pages
    - Project: E-commerce Platform - User authentication and protected routes
 
-9. API701A1: API Development (7 days)
+9. API701A1: API Development with Django (7 days)
 
-   - RESTful API design, versioning, documentation, security adapted for Django REST Framework.
+   - RESTful API design principles
+   - Creating and organizing API routes with Django REST Framework
+   - Handling different HTTP methods
+   - Error handling and validation
+   - API documentation with Swagger/OpenAPI
    - Project: E-commerce Platform - API routes for product and user management
 
-10. INT701A1: Integrating Frontend and Backend (7 days)
+10. TES801P1: Testing and Quality Assurance (7 days)
 
-    - Connecting frontend to backend, state management, API consumption adapted for Django + React.
+    - Unit testing with PyTest and React Testing Library
+    - Integration testing for API routes
+    - End-to-end testing with Cypress
+    - Test-driven development (TDD) methodology
+    - Continuous Integration with GitHub Actions
     - Project: Task Management Application - TDD approach to core features
 
-11. TES801A1: Testing and Quality Assurance (7 days)
+11. DEP901A1: DevOps and Deployment with AWS (5 days)
 
-    - Unit testing, integration testing, end-to-end testing partially reused for Python-based stacks.
+    - AWS platform overview
+    - Deploying Django apps on AWS
+    - Environment variables and secrets management
+    - Continuous Deployment with AWS
+    - Monitoring and analytics
     - Project: Task Management Application - CI/CD setup and deployment
 
-12. DEP901A1: DevOps and Deployment (5 days)
+12. OPT1001P1: Performance Optimization (5 days)
 
-    - CI/CD, cloud deployment, containerization adapted for AWS.
-    - Project: Task Management Application - CI/CD setup and deployment
-
-13. OPT1001A1: Performance Optimization (5 days)
-
-    - Backend and frontend optimization, caching, load testing partially reused for Python-based stacks.
+    - Backend and frontend performance metrics
+    - Code splitting and lazy loading
+    - Implementing caching strategies
+    - Optimizing images and fonts
+    - Measuring and improving application performance
     - Project: Social Media Dashboard - Optimized data fetching and rendering
+
+13. INT701A1: Advanced Django and React Concepts (6 days)
+
+    - Server-side rendering (SSR) vs. Client-side rendering (CSR)
+    - WebSockets and real-time data
+    - Internationalization (i18n) in Django and React
+    - Implementing PWA features
+    - Integrating with headless CMS systems
+    - Project: Social Media Dashboard - Advanced features and project completion
 
 ## Project Breakdown
 
@@ -100,6 +152,7 @@ Throughout the course, you will work on five comprehensive projects:
    - Introduces WebSocket integration for real-time updates
 
 5. Capstone Project: Social Media Dashboard (Weeks 12-13)
+
    - A comprehensive social media management dashboard
    - Implements advanced Django features like caching and optimization
    - Focuses on performance optimization and scalability
@@ -118,5 +171,3 @@ By the end of this bootcamp, you will be able to:
 8. Deploy and maintain Django applications on AWS
 9. Optimize Django applications for performance
 10. Develop internationalized and accessible web applications
-
-This course is designed to be challenging, engaging, and directly applicable to real-world development scenarios. The integration of projects with each unit ensures that students immediately apply their learning, preparing them for a successful career in modern web development with Django and React.
