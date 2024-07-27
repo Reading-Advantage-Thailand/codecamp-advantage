@@ -2,7 +2,7 @@
 
 ## Course Overview
 
-This intensive 13-week bootcamp is designed to transform beginners into proficient full-stack developers, specializing in the Django and React ecosystems. The course covers Django, React, TypeScript, and related technologies. Students will work on five progressive projects throughout the course, each integrated with the units to provide hands-on application of learned skills.
+This intensive 13-week bootcamp is designed to transform beginners into proficient full-stack developers, specializing in the Django and React ecosystems. The course covers Django, React, Python, and related technologies. Students will work on five progressive projects throughout the course, each integrated with the units to provide hands-on application of learned skills.
 
 ## Course Structure and Project Integration
 
@@ -51,16 +51,16 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - Admin interface and customizations
    - Project: Blog Application - Creating Django components
 
-6. REA401A1: React Fundamentals for Django (7 days)
+6. REA401A2: React Fundamentals for Django (7 days)
 
    - React components and JSX
    - Props and state management
    - Hooks (useState, useEffect, useContext, useMemo, useCallback)
    - React patterns in Django
-   - State management with Context API and SWR
+   - State management with Context API and Redux
    - Project: Blog Application - Creating React components
 
-7. DBM501: Database Design and Integration (7 days)
+7. DBM501A2: Database Design and Integration (7 days)
 
    - Relational database concepts
    - PostgreSQL setup and configuration
@@ -69,7 +69,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - Integration of PostgreSQL with Django
    - Project: E-commerce Platform - Database setup and product catalog
 
-8. AUT601A1: Authentication and Authorization with Django (5 days)
+8. AUT601A3: Authentication and Authorization with Django (5 days)
 
    - Setting up Django authentication
    - Implementing various authentication providers
@@ -78,7 +78,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - Securing API routes and pages
    - Project: E-commerce Platform - User authentication and protected routes
 
-9. API701A1: API Development with Django (7 days)
+9. API701A3: API Development with Django (7 days)
 
    - RESTful API design principles
    - Creating and organizing API routes with Django REST Framework
@@ -87,16 +87,16 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - API documentation with Swagger/OpenAPI
    - Project: E-commerce Platform - API routes for product and user management
 
-10. TES801P1: Testing and Quality Assurance (7 days)
+10. TES801P2: Testing and Quality Assurance (7 days)
 
     - Unit testing with PyTest and React Testing Library
     - Integration testing for API routes
-    - End-to-end testing with Cypress
+    - End-to-end testing with Selenium
     - Test-driven development (TDD) methodology
     - Continuous Integration with GitHub Actions
     - Project: Task Management Application - TDD approach to core features
 
-11. DEP901A1: DevOps and Deployment with AWS (5 days)
+11. DEP901A3: DevOps and Deployment with AWS (5 days)
 
     - AWS platform overview
     - Deploying Django apps on AWS
@@ -105,19 +105,18 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
     - Monitoring and analytics
     - Project: Task Management Application - CI/CD setup and deployment
 
-12. OPT1001P1: Performance Optimization (5 days)
+12. OPT1001P2: Performance Optimization (5 days)
 
     - Backend and frontend performance metrics
     - Code splitting and lazy loading
     - Implementing caching strategies
-    - Optimizing images and fonts
+    - Optimizing database queries
     - Measuring and improving application performance
     - Project: Social Media Dashboard - Optimized data fetching and rendering
 
-13. INT701A1: Advanced Django and React Concepts (6 days)
-
+13. INT701A3: Advanced Django and React Concepts (6 days)
     - Server-side rendering (SSR) vs. Client-side rendering (CSR)
-    - WebSockets and real-time data
+    - WebSockets and real-time data with Django Channels
     - Internationalization (i18n) in Django and React
     - Implementing PWA features
     - Integrating with headless CMS systems
@@ -136,8 +135,8 @@ Throughout the course, you will work on five comprehensive projects:
 2. Blog Application (Weeks 4-6)
 
    - A dynamic blog with server-side rendering and API routes
-   - Utilizes Python for type-safe development
-   - Implements data fetching and state management in Django
+   - Utilizes Python for backend logic
+   - Implements data fetching and state management in Django and React
 
 3. E-commerce Platform (Weeks 7-9)
 
@@ -152,7 +151,6 @@ Throughout the course, you will work on five comprehensive projects:
    - Introduces WebSocket integration for real-time updates
 
 5. Capstone Project: Social Media Dashboard (Weeks 12-13)
-
    - A comprehensive social media management dashboard
    - Implements advanced Django features like caching and optimization
    - Focuses on performance optimization and scalability
@@ -162,12 +160,14 @@ Throughout the course, you will work on five comprehensive projects:
 By the end of this bootcamp, you will be able to:
 
 1. Build full-stack applications using Django and React
-2. Write type-safe code with Python
-3. Implement server-side rendering and API development
+2. Write efficient and maintainable Python code
+3. Implement server-side rendering and API development with Django
 4. Design and develop RESTful APIs using Django REST Framework
-5. Integrate and query databases using PostgreSQL
+5. Integrate and query databases using PostgreSQL and Django ORM
 6. Implement authentication and authorization in Django applications
 7. Write and run various types of tests for both frontend and backend
 8. Deploy and maintain Django applications on AWS
-9. Optimize Django applications for performance
+9. Optimize Django and React applications for performance
 10. Develop internationalized and accessible web applications
+
+This course is designed to be challenging, engaging, and directly applicable to real-world development scenarios. The integration of projects with each unit ensures that students immediately apply their learning, preparing them for a successful career in modern web development with Django and React.

@@ -16,20 +16,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - Nuxt.js project initialization and structure
    - Project: Personal Portfolio - Setup and initialization
 
-   - VSCode setup and essential extensions for Nuxt.js development
-   - Git and GitHub basics
-   - Node.js and npm essentials
-   - Nuxt.js project initialization and structure
-   - Project: Personal Portfolio - Setup and initialization
-
 2. HTML101: HTML and CSS Fundamentals (5 days)
-
-   - HTML5 semantic elements
-   - CSS layout techniques (Flexbox, Grid)
-   - Responsive web design
-   - CSS Modules in Nuxt.js
-   - Introduction to Tailwind CSS
-   - Project: Personal Portfolio - Basic structure and styling
 
    - HTML5 semantic elements
    - CSS layout techniques (Flexbox, Grid)
@@ -47,21 +34,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - ES6+ features
    - Project: Personal Portfolio - Adding interactive elements
 
-   - JavaScript syntax and basic constructs
-   - Functions and scope
-   - Arrays, objects, and built-in methods
-   - Asynchronous JavaScript (Promises, async/await)
-   - ES6+ features
-   - Project: Personal Portfolio - Adding interactive elements
-
 4. TSC301: TypeScript Fundamentals (5 days)
-
-   - TypeScript basics and its benefits in Nuxt.js projects
-   - Basic types and type inference
-   - Interfaces, type aliases, and union types
-   - Generics and utility types
-   - TypeScript configuration in Nuxt.js
-   - Project: Blog Application - TypeScript setup and basic types
 
    - TypeScript basics and its benefits in Nuxt.js projects
    - Basic types and type inference
@@ -79,21 +52,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - State management with Vuex
    - Project: Blog Application - Creating Vue components
 
-   - Vue.js components and templates
-   - Props and state management
-   - Composition API
-   - Vue patterns in Nuxt.js
-   - State management with Vuex
-   - Project: Blog Application - Creating Vue components
-
 6. NUX601: Nuxt.js Fundamentals (7 days)
-
-   - Nuxt.js project structure and configuration
-   - Routing in Nuxt.js (file-based routing, dynamic routes)
-   - Data fetching methods (asyncData, fetch, serverMiddleware)
-   - Image and Font optimization
-   - Custom App and Document components
-   - Project: Blog Application - Implementing routing and data fetching
 
    - Nuxt.js project structure and configuration
    - Routing in Nuxt.js (file-based routing, dynamic routes)
@@ -111,21 +70,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - Integration of Prisma with Nuxt.js API routes
    - Project: E-commerce Platform - Database setup and product catalog
 
-   - Relational database concepts
-   - Prisma setup and configuration
-   - Database schema design and migrations
-   - CRUD operations with Prisma
-   - Integration of Prisma with Nuxt.js API routes
-   - Project: E-commerce Platform - Database setup and product catalog
-
 8. AUT601A2: Authentication and Authorization with Nuxt Auth (5 days)
-
-   - Setting up Nuxt Auth
-   - Implementing various authentication providers
-   - JWT and session handling
-   - Role-based access control
-   - Securing API routes and pages
-   - Project: E-commerce Platform - User authentication and protected routes
 
    - Setting up Nuxt Auth
    - Implementing various authentication providers
@@ -143,21 +88,7 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - API documentation with Swagger/OpenAPI
    - Project: E-commerce Platform - API routes for product and user management
 
-   - RESTful API design principles
-   - Creating and organizing API routes
-   - Handling different HTTP methods
-   - Error handling and validation
-   - API documentation with Swagger/OpenAPI
-   - Project: E-commerce Platform - API routes for product and user management
-
 10. TES801P1: Testing and Quality Assurance (7 days)
-
-    - Unit testing with Jest and Vue Testing Library
-    - Integration testing for API routes
-    - End-to-end testing with Cypress
-    - Test-driven development (TDD) methodology
-    - Continuous Integration with GitHub Actions
-    - Project: Task Management Application - TDD approach to core features
 
     - Unit testing with Jest and Vue Testing Library
     - Integration testing for API routes
@@ -175,13 +106,6 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
     - Monitoring and analytics
     - Project: Task Management Application - CI/CD setup and deployment
 
-    - Netlify platform overview
-    - Deploying Nuxt.js apps on Netlify
-    - Environment variables and secrets management
-    - Continuous Deployment with Netlify
-    - Monitoring and analytics
-    - Project: Task Management Application - CI/CD setup and deployment
-
 12. OPT1001P1: Performance Optimization (5 days)
 
     - Core Web Vitals and performance metrics
@@ -191,21 +115,12 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
     - Measuring and improving application performance
     - Project: Social Media Dashboard - Optimized data fetching and rendering
 
-    - Core Web Vitals and performance metrics
-    - Code splitting and lazy loading
-    - Implementing caching strategies
-    - Optimizing images and fonts
-    - Measuring and improving application performance
-    - Project: Social Media Dashboard - Optimized data fetching and rendering
-
 13. INT701A2: Advanced Nuxt.js Concepts and Integration (6 days)
-
     - Server-side rendering (SSR) vs. Static Site Generation (SSG)
     - Incremental Static Regeneration (ISR)
     - Internationalization (i18n) in Nuxt.js
     - Implementing PWA features
     - Integrating with headless CMS systems
-    - Project: Social Media Dashboard - Advanced features and project completion
     - Project: Social Media Dashboard - Advanced features and project completion
 
 ## Project Breakdown
