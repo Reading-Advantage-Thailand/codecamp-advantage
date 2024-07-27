@@ -10,6 +10,7 @@ const Courses: React.FC = () => {
       description: 'Full-stack JavaScript with Next.js API Routes, React, Prisma, and NextAuth.js. Deployed on Vercel.',
       image: '/next-js-logo.png',
       slug: 'nextjs',
+      badge: 'Hot',
     },
     {
       code: 'NU02FS',
@@ -66,6 +67,7 @@ const Courses: React.FC = () => {
       description: 'Elixir backend with Phoenix, React frontend, Ecto, and Phoenix Authentication. Deployed on Gigalixir.',
       image: '/phoenix-react-logo.png',
       slug: 'phoenix-react',
+      badge: 'Recommended',
     },
     {
       code: 'FS10FS',
@@ -73,6 +75,7 @@ const Courses: React.FC = () => {
       description: 'Python backend with FastAPI, Svelte frontend, SQLAlchemy, and FastAPI JWT. Deployed on Deta/Heroku.',
       image: '/fastapi-svelte-logo.png',
       slug: 'fastapi-svelte',
+      badge: 'Recommended',
     },
   ]
 
@@ -82,7 +85,14 @@ const Courses: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-8">Choose Your Tech Stack</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {courses.map((course, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-lg relative">
+              {course.badge && (
+                <span className={`absolute top-2 right-2 px-2 py-1 text-xs font-bold rounded ${
+                  course.badge === 'Hot' ? 'bg-red-500 text-white' : 'bg-green-500 text-white'
+                }`}>
+                  {course.badge}
+                </span>
+              )}
               <div className="mb-4 flex justify-center">
                 <Image
                   src={course.image}
