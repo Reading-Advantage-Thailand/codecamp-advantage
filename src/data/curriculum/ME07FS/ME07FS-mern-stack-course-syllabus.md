@@ -100,6 +100,8 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
 11. DEP901A9: DevOps and Deployment (5 days)
 
     - Containerization with Docker
+    - Heroku platform overview and pricing tiers (Eco $5/mo or Basic $7/mo)
+    - Setting up a Heroku account and choosing an appropriate plan
     - Deploying MERN stack apps on Heroku
     - MongoDB Atlas setup and integration
     - Environment variables and secrets management

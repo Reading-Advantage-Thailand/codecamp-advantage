@@ -98,7 +98,8 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
 
 11. DEP901A3: DevOps and Deployment with Heroku (5 days)
 
-    - Heroku platform overview
+    - Heroku platform overview and pricing tiers (Eco $5/mo or Basic $7/mo)
+    - Setting up a Heroku account and choosing an appropriate plan
     - Deploying Rails and React apps on Heroku
     - Environment variables and secrets management
     - Continuous Deployment with Heroku
