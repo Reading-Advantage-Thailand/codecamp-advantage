@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import AuthButton from './AuthButton';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +24,6 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <AuthButton />
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -58,10 +56,7 @@ const Navbar = () => {
             <Link href="/about" className="text-gray-800 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">About</Link>
             <Link href="/get-started" className="text-gray-800 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium">Get Started</Link>
           </div>
-          <div className="px-2 pt-2 pb-3">
-            <AuthButton />
           </div>
-        </div>
       )}
     </nav>
   );

@@ -16,7 +16,7 @@ export default function Home() {
         <Courses />
         <div className="text-center mt-8">
           <Link href="/courses" className="text-blue-600 hover:underline">
-            See a comparison of the courses
+            Compare all 10 full-stack development courses
           </Link>
         </div>
       </div>

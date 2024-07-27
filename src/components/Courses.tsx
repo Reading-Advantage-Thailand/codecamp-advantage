@@ -46,6 +46,7 @@ const Courses: React.FC = () => {
       description: 'C# backend with ASP.NET Core, Angular frontend, Entity Framework Core, and ASP.NET Core Identity. Deployed on Azure.',
       image: '/aspnet-angular-logo.png',
       slug: 'aspnet-core-angular',
+      badge: 'New',
     },
     {
       code: 'ME07FS',
@@ -90,7 +91,8 @@ const Courses: React.FC = () => {
               {course.badge && (
                 <span className={`absolute top-2 right-2 px-2 py-1 text-xs font-bold rounded ${
                   course.badge === 'Hot' ? 'bg-red-500 text-white' : 
-                  course.badge === 'Popular' ? 'bg-blue-500 text-white' : 'bg-green-500 text-white'
+                  course.badge === 'Popular' ? 'bg-blue-500 text-white' : 
+                  course.badge === 'New' ? 'bg-purple-500 text-white' : 'bg-green-500 text-white'
                 }`}>
                   {course.badge}
                 </span>
