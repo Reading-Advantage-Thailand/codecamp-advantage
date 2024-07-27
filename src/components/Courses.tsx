@@ -5,62 +5,72 @@ import Image from 'next/image'
 const Courses: React.FC = () => {
   const courses = [
     {
-      title: 'Next.js 14 / GCP Camp',
-      description: 'Master server-side rendering and static site generation with Google Cloud Platform.',
+      code: 'NJ01FS',
+      title: 'Next.js Camp',
+      description: 'Full-stack JavaScript with Next.js API Routes, React, Prisma, and NextAuth.js. Deployed on Vercel.',
       image: '/next-js-logo.png',
       slug: 'nextjs',
     },
     {
-      title: 'T3 Stack Camp',
-      description: 'Build full-stack, type-safe applications with ease using Next.js, Supabase, and Vercel.',
-      image: '/t3-stack-logo.png',
-      slug: 't3',
+      code: 'NU02FS',
+      title: 'Nuxt.js Camp',
+      description: 'Full-stack JavaScript with Nuxt.js Server Middleware, Vue.js, Prisma/TypeORM, and Nuxt Auth. Deployed on Netlify/Vercel.',
+      image: '/nuxt-js-logo.png',
+      slug: 'nuxtjs',
     },
     {
-      title: 'MERN Stack Camp',
-      description: 'Develop powerful web apps with MongoDB, Express, React, and Node.js, deployed to AWS.',
-      image: '/mern-stack-logo.jpeg',
-      slug: 'mern',
-    },
-    {
-      title: 'Laravel Full-Stack Camp',
-      description: 'Create robust applications with Laravel and Vue.js on Digital Ocean with Laravel Forge.',
-      image: '/laravel-logo.png',
-      slug: 'laravel',
-    },
-    {
+      code: 'DJ03FS',
       title: 'Django + React Camp',
-      description: 'Build scalable web applications with Django and React, deployed on AWS.',
+      description: 'Python backend with Django, React frontend, Django ORM, and Django Authentication. Deployed on AWS.',
       image: '/django-react-logo.png',
       slug: 'django-react',
     },
     {
-      title: 'ASP.NET Core + Angular Camp',
-      description: 'Develop enterprise-grade applications with ASP.NET Core and Angular, deployed on Azure.',
-      image: '/aspnet-angular-logo.png',
-      slug: 'aspnet-angular',
-    },
-    {
+      code: 'RR04FS',
       title: 'Ruby on Rails + React Camp',
-      description: 'Create rapid prototypes and MVPs with Ruby on Rails and React, deployed on Heroku.',
+      description: 'Ruby backend with Rails, React frontend, Active Record, and Devise authentication. Deployed on Heroku.',
       image: '/rails-react-logo.png',
-      slug: 'rails-react',
+      slug: 'ruby-on-rails-react',
     },
     {
+      code: 'LV05FS',
+      title: 'Laravel + Vue.js Camp',
+      description: 'PHP backend with Laravel, Vue.js frontend, Eloquent ORM, and Laravel Sanctum. Deployed on Laravel Forge.',
+      image: '/laravel-vue-logo.png',
+      slug: 'laravel-vuejs',
+    },
+    {
+      code: 'AN06FS',
+      title: 'ASP.NET Core + Angular Camp',
+      description: 'C# backend with ASP.NET Core, Angular frontend, Entity Framework Core, and ASP.NET Core Identity. Deployed on Azure.',
+      image: '/aspnet-angular-logo.png',
+      slug: 'aspnet-core-angular',
+    },
+    {
+      code: 'ME07FS',
+      title: 'MERN Stack Camp',
+      description: 'Full JavaScript stack with Express.js, React, MongoDB, and JWT authentication. Deployed on Heroku/MongoDB Atlas.',
+      image: '/mern-stack-logo.jpeg',
+      slug: 'mern',
+    },
+    {
+      code: 'SB08FS',
       title: 'Spring Boot + React Camp',
-      description: 'Build robust and scalable Java applications with Spring Boot and React, deployed on AWS.',
+      description: 'Java backend with Spring Boot, React frontend, Spring Data JPA, and Spring Security. Deployed on AWS/GCP.',
       image: '/spring-react-logo.png',
       slug: 'spring-react',
     },
     {
+      code: 'PH09FS',
       title: 'Phoenix + React Camp',
-      description: 'Develop high-performance, fault-tolerant applications with Phoenix and React, deployed on Gigalixir.',
+      description: 'Elixir backend with Phoenix, React frontend, Ecto, and Phoenix Authentication. Deployed on Gigalixir.',
       image: '/phoenix-react-logo.png',
       slug: 'phoenix-react',
     },
     {
+      code: 'FS10FS',
       title: 'FastAPI + Svelte Camp',
-      description: 'Build fast, modern web applications with FastAPI and Svelte, deployed on Deta or Heroku.',
+      description: 'Python backend with FastAPI, Svelte frontend, SQLAlchemy, and FastAPI JWT. Deployed on Deta/Heroku.',
       image: '/fastapi-svelte-logo.png',
       slug: 'fastapi-svelte',
     },
@@ -82,7 +92,8 @@ const Courses: React.FC = () => {
                   className="h-24 w-auto object-contain"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-4">{course.title}</h3>
+              <h3 className="text-xl font-semibold mb-2">{course.title}</h3>
+              <p className="text-sm font-medium text-gray-600 mb-2">{course.code}</p>
               <p className="mb-4 text-sm">{course.description}</p>
               <Link href={`/courses/${course.slug}`} className="text-blue-500 hover:underline">Learn More</Link>
             </div>
