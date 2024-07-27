@@ -208,41 +208,45 @@
     Description: Comprehensive course covering the MERN (MongoDB, Express.js, React, Node.js) stack, including development environment setup, HTML/CSS, JavaScript, TypeScript, React, Node.js, Express.js, MongoDB, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: MERN Stack
 
-35. DEV101A5: Development Environment Setup for MERN Stack
-    Description: Setting up VSCode, Git, GitHub, Node.js, and essential development tools for MERN stack development.
-    Parent Courses: MERN Stack
+35. SB08FS: Spring Boot + React Course
+    Description: Comprehensive course covering Spring Boot and React integration, including development environment setup, HTML/CSS, JavaScript, Java, Spring Boot, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
+    Parent Courses: Spring Boot+React
 
-36. REA401A5: React Fundamentals for MERN Stack
-    Description: React basics, components, hooks, state management with Redux, and integration with MERN stack.
-    Parent Courses: MERN Stack
+36. DEV101A7: Development Environment Setup for Spring Boot and React
+    Description: Setting up IntelliJ IDEA, VSCode, Git, GitHub, JDK, Maven, Node.js, and essential development tools for Spring Boot and React development.
+    Parent Courses: Spring Boot+React
 
-37. EXP601: Express.js Fundamentals
-    Description: Express.js project structure, routing, middleware, and RESTful API design.
-    Parent Courses: MERN Stack
+37. REA401A4: React Fundamentals for Spring Boot Integration
+    Description: React basics, components, hooks, state management with Redux Toolkit, and integration with Spring Boot backend.
+    Parent Courses: Spring Boot+React
 
-38. DBM501A1: MongoDB and Mongoose
-    Description: NoSQL database concepts, MongoDB setup, Mongoose ODM, schema design, and CRUD operations.
-    Parent Courses: MERN Stack
+38. SPR601: Spring Boot Fundamentals
+    Description: Spring Boot project structure, dependency injection, Spring MVC, Spring Data JPA, and RESTful API design.
+    Parent Courses: Spring Boot+React
 
-39. AUT601A10: Authentication and Authorization with JWT for MERN Stack
-    Description: JWT implementation, user authentication flows, and securing Express.js routes.
-    Parent Courses: MERN Stack
+39. DBM501: Database Design and Integration with Spring Data JPA
+    Description: Relational database concepts, Spring Data JPA setup, entity mapping, JPQL, and transaction management.
+    Parent Courses: Spring Boot+React
 
-40. API701A10: Advanced API Development with Express.js
-    Description: API versioning, documentation, rate limiting, file uploads, and testing for MERN stack.
-    Parent Courses: MERN Stack
+40. AUT601A7: Authentication and Authorization with Spring Security
+    Description: Spring Security setup, JWT implementation, role-based access control, and securing REST endpoints.
+    Parent Courses: Spring Boot+React
 
-41. DEP901A9: DevOps and Deployment for MERN Stack
-    Description: Containerization with Docker, deploying MERN apps on Heroku, MongoDB Atlas integration, and CI/CD setup.
-    Parent Courses: MERN Stack
+41. API701A7: Advanced API Development with Spring Boot
+    Description: RESTful API design, HATEOAS, versioning, documentation with Springdoc OpenAPI, and testing for Spring Boot.
+    Parent Courses: Spring Boot+React
 
-42. INT701A10: Advanced MERN Stack Concepts and Integration
-    Description: Real-time applications with Socket.io, GraphQL implementation, serverless functions, and PWA features for MERN stack.
-    Parent Courses: MERN Stack
+42. DEP901A6: DevOps and Deployment with AWS
+    Description: Containerization with Docker, deploying Spring Boot apps on AWS Elastic Beanstalk, CI/CD with AWS CodePipeline, and monitoring with CloudWatch.
+    Parent Courses: Spring Boot+React
+
+43. INT701A7: Advanced Spring Boot Concepts and Integration
+    Description: Microservices with Spring Cloud, event-driven architecture, caching strategies, WebSocket implementation, and external API integration for Spring Boot.
+    Parent Courses: Spring Boot+React
 
 ## Integration Units
 
-34. INT701: Integrating Frontend and Backend
+44. INT701: Integrating Frontend and Backend
     Description: Connecting frontend to backend, state management, API consumption.
     Parent Courses: All codecamps (adapted for specific technology pairs)
     Adaptations:
