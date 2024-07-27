@@ -185,12 +185,48 @@
     Parent Courses: Phoenix+React
 
 29. FAP601: FastAPI Fundamentals
-    Description: FastAPI project structure, path operations, dependency injection.
+    Description: FastAPI project structure, path operations, dependency injection, asynchronous programming.
     Parent Courses: FastAPI+Svelte
 
 30. EXP601: Express.js Fundamentals
     Description: Express.js project structure, routing, middleware.
     Parent Courses: MERN Stack
+
+31. SVE401: Svelte Fundamentals
+    Description: Svelte components, reactivity, state management, lifecycle hooks, and special elements.
+    Parent Courses: FastAPI+Svelte
+
+32. DBM501A2: Database Design and Integration with SQLAlchemy
+    Description: Relational database concepts, SQLAlchemy setup, schema design, migrations with Alembic, and integration with FastAPI.
+    Parent Courses: FastAPI+Svelte
+
+33. AUT601A9: Authentication and Authorization with FastAPI
+    Description: JWT authentication, password hashing, role-based access control, and securing API endpoints in FastAPI.
+    Parent Courses: FastAPI+Svelte
+
+34. API701A9: Advanced API Development with FastAPI
+    Description: RESTful API design, advanced path operations, background tasks, WebSockets, versioning, and documentation in FastAPI.
+    Parent Courses: FastAPI+Svelte
+
+35. TES801P2: Testing and Quality Assurance for FastAPI and Svelte
+    Description: Unit testing with pytest for FastAPI, integration testing, end-to-end testing with Cypress for Svelte, and TDD methodology.
+    Parent Courses: FastAPI+Svelte
+
+36. DEP901A8: DevOps and Deployment with Deta or Heroku
+    Description: Deploying FastAPI apps on Deta or Heroku, environment management, continuous deployment, monitoring, and logging.
+    Parent Courses: FastAPI+Svelte
+
+37. OPT1001P2: Performance Optimization for FastAPI and Svelte
+    Description: FastAPI and Svelte performance best practices, caching strategies, database query optimization, and application performance measurement.
+    Parent Courses: FastAPI+Svelte
+
+38. INT701A9: Advanced FastAPI and Svelte Integration
+    Description: Server-Sent Events, GraphQL integration, internationalization in Svelte, PWA features, and external API integration.
+    Parent Courses: FastAPI+Svelte
+
+39. FS10FS: FastAPI + Svelte Course
+    Description: Comprehensive course covering FastAPI and Svelte integration, including development environment setup, HTML/CSS, JavaScript, Python, FastAPI, Svelte, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
+    Parent Courses: FastAPI+Svelte
 
 31. DJ03FS: Django + React Course
     Description: Comprehensive course covering Django and React integration, including development environment setup, HTML/CSS, JavaScript, Python, Django, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
