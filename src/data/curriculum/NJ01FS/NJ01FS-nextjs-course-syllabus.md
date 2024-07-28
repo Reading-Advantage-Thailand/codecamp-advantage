@@ -52,13 +52,6 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - TypeScript configuration in Next.js
    - Project: Blog Application - Adding TypeScript to React components
 
-   - React components and JSX
-   - Props and state management
-   - Hooks (useState, useEffect, useContext, useMemo, useCallback)
-   - React patterns in Next.js
-   - State management with Context API and SWR
-   - Project: Blog Application - Creating React components
-
 6. NEX601: Next.js Fundamentals (7 days)
 
    - Next.js project structure and configuration
