@@ -9,6 +9,7 @@ export const metadata = {
 export default function LaravelVueJSCoursePage() {
   return (
     <CourseLayout title="Laravel + Vue.js Full-Stack Development Codecamp">
+      <img src="/laravel-vue-logo.png" alt="Laravel + Vue.js Logo" className="mx-auto mb-8 max-w-xs" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <CourseSection title="Course Overview">
           <p className="text-gray-700">
