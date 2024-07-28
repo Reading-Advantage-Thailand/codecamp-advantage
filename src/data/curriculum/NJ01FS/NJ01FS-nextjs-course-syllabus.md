@@ -34,16 +34,23 @@ The bootcamp is divided into 13 units, each focusing on specific technologies an
    - ES6+ features
    - Project: Personal Portfolio - Adding interactive elements
 
-4. TSC301: TypeScript Fundamentals (5 days)
+4. REA401A1: React Fundamentals for Next.js (10 days)
+
+   - React components and JSX
+   - Props and state management
+   - Hooks (useState, useEffect, useContext, useMemo, useCallback)
+   - React patterns in Next.js
+   - State management with Context API and SWR
+   - Project: Blog Application - Creating React components
+
+5. TSC301: TypeScript Fundamentals (5 days)
 
    - TypeScript basics and its benefits in Next.js projects
    - Basic types and type inference
    - Interfaces, type aliases, and union types
    - Generics and utility types
    - TypeScript configuration in Next.js
-   - Project: Blog Application - TypeScript setup and basic types
-
-5. REA401A1: React Fundamentals for Next.js (10 days)
+   - Project: Blog Application - Adding TypeScript to React components
 
    - React components and JSX
    - Props and state management
