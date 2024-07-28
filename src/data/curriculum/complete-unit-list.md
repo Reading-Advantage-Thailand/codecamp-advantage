@@ -12,6 +12,7 @@
    - DEV101A4: Adapted for C#-based stack (ASP.NET Core)
    - DEV101A5: Adapted for Java-based stack (Spring Boot)
    - DEV101A6: Adapted for Elixir-based stack (Phoenix)
+   - DEV101A7: Adapted for Spring Boot and React
 
 2. HTML101: HTML and CSS Fundamentals
    Description: HTML5 semantic elements, CSS layout techniques, responsive design.
@@ -23,7 +24,7 @@
 
 4. TSC301: TypeScript Fundamentals
    Description: TypeScript basics, types, interfaces, generics.
-   Parent Courses: Next.js, Nuxt.js, MERN Stack
+   Parent Courses: Next.js, Nuxt.js, MERN Stack, Spring Boot+React
 
 5. REA401: React Fundamentals
    Description: React basics, components, hooks, state management.
@@ -55,6 +56,7 @@
    - DBM501A2: Adapted for PostgreSQL (Django, FastAPI)
    - DBM501A3: Adapted for MySQL (Laravel, Ruby on Rails)
    - DBM501A4: Adapted for SQL Server (ASP.NET Core)
+   - DBM501A5: Adapted for Spring Data JPA (Spring Boot)
 
 10. AUT601: Authentication and Authorization
     Description: User authentication, JWT, OAuth, role-based access control.
@@ -107,7 +109,7 @@
     - DEP901A3: Adapted for AWS (Django, Ruby on Rails)
     - DEP901A4: Adapted for DigitalOcean (Laravel)
     - DEP901A5: Adapted for Azure (ASP.NET Core)
-    - DEP901A6: Adapted for Google Cloud Platform (Spring Boot)
+    - DEP901A6: Adapted for AWS (Spring Boot)
     - DEP901A7: Adapted for Gigalixir (Phoenix)
     - DEP901A8: Adapted for Deta or Heroku (FastAPI)
     - DEP901A9: Adapted for Heroku and MongoDB Atlas (MERN Stack)
@@ -177,7 +179,7 @@
     Parent Courses: ASP.NET Core+Angular
 
 27. SPR601: Spring Boot Fundamentals
-    Description: Spring Boot project structure, dependency injection, Spring MVC.
+    Description: Spring Boot project structure, dependency injection, Spring MVC, Spring Data JPA, and RESTful API design.
     Parent Courses: Spring Boot+React
 
 28. PHO601: Phoenix Fundamentals
@@ -192,97 +194,35 @@
     Description: Express.js project structure, routing, middleware.
     Parent Courses: MERN Stack
 
-31. SVE401: Svelte Fundamentals
-    Description: Svelte components, reactivity, state management, lifecycle hooks, and special elements.
-    Parent Courses: FastAPI+Svelte
+## Course-Specific Units
 
-32. DBM501A2: Database Design and Integration with SQLAlchemy
-    Description: Relational database concepts, SQLAlchemy setup, schema design, migrations with Alembic, and integration with FastAPI.
-    Parent Courses: FastAPI+Svelte
-
-33. AUT601A9: Authentication and Authorization with FastAPI
-    Description: JWT authentication, password hashing, role-based access control, and securing API endpoints in FastAPI.
-    Parent Courses: FastAPI+Svelte
-
-34. API701A9: Advanced API Development with FastAPI
-    Description: RESTful API design, advanced path operations, background tasks, WebSockets, versioning, and documentation in FastAPI.
-    Parent Courses: FastAPI+Svelte
-
-35. TES801P2: Testing and Quality Assurance for FastAPI and Svelte
-    Description: Unit testing with pytest for FastAPI, integration testing, end-to-end testing with Cypress for Svelte, and TDD methodology.
-    Parent Courses: FastAPI+Svelte
-
-36. DEP901A8: DevOps and Deployment with Deta or Heroku
-    Description: Deploying FastAPI apps on Deta or Heroku, environment management, continuous deployment, monitoring, and logging.
-    Parent Courses: FastAPI+Svelte
-
-37. OPT1001P2: Performance Optimization for FastAPI and Svelte
-    Description: FastAPI and Svelte performance best practices, caching strategies, database query optimization, and application performance measurement.
-    Parent Courses: FastAPI+Svelte
-
-38. INT701A9: Advanced FastAPI and Svelte Integration
-    Description: Server-Sent Events, GraphQL integration, internationalization in Svelte, PWA features, and external API integration.
-    Parent Courses: FastAPI+Svelte
-
-39. FS10FS: FastAPI + Svelte Course
+31. FS10FS: FastAPI + Svelte Course
     Description: Comprehensive course covering FastAPI and Svelte integration, including development environment setup, HTML/CSS, JavaScript, Python, FastAPI, Svelte, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: FastAPI+Svelte
 
-31. DJ03FS: Django + React Course
+32. DJ03FS: Django + React Course
     Description: Comprehensive course covering Django and React integration, including development environment setup, HTML/CSS, JavaScript, Python, Django, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: Django+React
 
-32. RR04FS: Ruby on Rails + React Course
+33. RR04FS: Ruby on Rails + React Course
     Description: Comprehensive course covering Ruby on Rails and React integration, including development environment setup, HTML/CSS, JavaScript, Ruby, Rails, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: Ruby on Rails+React
 
-33. AN06FS: ASP.NET Core + Angular Course
+34. AN06FS: ASP.NET Core + Angular Course
     Description: Comprehensive course covering ASP.NET Core and Angular integration, including development environment setup, HTML/CSS, JavaScript, C#, ASP.NET Core, Angular, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: ASP.NET Core+Angular
 
-34. ME07FS: MERN Stack Course
+35. ME07FS: MERN Stack Course
     Description: Comprehensive course covering the MERN (MongoDB, Express.js, React, Node.js) stack, including development environment setup, HTML/CSS, JavaScript, TypeScript, React, Node.js, Express.js, MongoDB, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
     Parent Courses: MERN Stack
 
-35. SB08FS: Spring Boot + React Course
+36. SB08FS: Spring Boot + React Course
     Description: Comprehensive course covering Spring Boot and React integration, including development environment setup, HTML/CSS, JavaScript, Java, Spring Boot, React, databases, authentication, API development, frontend-backend integration, testing, deployment, and performance optimization.
-    Parent Courses: Spring Boot+React
-
-36. DEV101A7: Development Environment Setup for Spring Boot and React
-    Description: Setting up IntelliJ IDEA, VSCode, Git, GitHub, JDK, Maven, Node.js, and essential development tools for Spring Boot and React development.
-    Parent Courses: Spring Boot+React
-
-37. REA401A4: React Fundamentals for Spring Boot Integration
-    Description: React basics, components, hooks, state management with Redux Toolkit, and integration with Spring Boot backend.
-    Parent Courses: Spring Boot+React
-
-38. SPR601: Spring Boot Fundamentals
-    Description: Spring Boot project structure, dependency injection, Spring MVC, Spring Data JPA, and RESTful API design.
-    Parent Courses: Spring Boot+React
-
-39. DBM501: Database Design and Integration with Spring Data JPA
-    Description: Relational database concepts, Spring Data JPA setup, entity mapping, JPQL, and transaction management.
-    Parent Courses: Spring Boot+React
-
-40. AUT601A7: Authentication and Authorization with Spring Security
-    Description: Spring Security setup, JWT implementation, role-based access control, and securing REST endpoints.
-    Parent Courses: Spring Boot+React
-
-41. API701A7: Advanced API Development with Spring Boot
-    Description: RESTful API design, HATEOAS, versioning, documentation with Springdoc OpenAPI, and testing for Spring Boot.
-    Parent Courses: Spring Boot+React
-
-42. DEP901A6: DevOps and Deployment with AWS
-    Description: Containerization with Docker, deploying Spring Boot apps on AWS Elastic Beanstalk, CI/CD with AWS CodePipeline, and monitoring with CloudWatch.
-    Parent Courses: Spring Boot+React
-
-43. INT701A7: Advanced Spring Boot Concepts and Integration
-    Description: Microservices with Spring Cloud, event-driven architecture, caching strategies, WebSocket implementation, and external API integration for Spring Boot.
     Parent Courses: Spring Boot+React
 
 ## Integration Units
 
-44. INT701: Integrating Frontend and Backend
+37. INT701: Integrating Frontend and Backend
     Description: Connecting frontend to backend, state management, API consumption.
     Parent Courses: All codecamps (adapted for specific technology pairs)
     Adaptations:
