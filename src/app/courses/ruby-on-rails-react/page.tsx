@@ -1,5 +1,6 @@
 import CourseSection from '../../../components/CourseSection';
 import CourseLayout from '../../../components/CourseLayout';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Ruby on Rails + React Full-Stack Development Codecamp - Codecamp Advantage',
@@ -9,7 +10,7 @@ export const metadata = {
 export default function RubyOnRailsReactCoursePage() {
   return (
     <CourseLayout title="Ruby on Rails + React Full-Stack Development Codecamp">
-      <img src="/rails-react-logo.png" alt="Ruby on Rails + React Logo" className="mx-auto mb-8 max-w-xs" />
+      <Image src="/rails-react-logo.png" alt="Ruby on Rails + React Logo" width={300} height={150} className="mx-auto mb-8" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <CourseSection title="Course Overview">
           <p className="text-gray-700">

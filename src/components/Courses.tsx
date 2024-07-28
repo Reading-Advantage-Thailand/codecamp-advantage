@@ -85,9 +85,9 @@ const Courses: React.FC = () => {
     <section className="bg-gray-200 py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-8">Choose Your Tech Stack</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center">
           {courses.map((course, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg relative">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-lg relative w-full max-w-sm">
               {course.badge && (
                 <span className={`absolute top-2 right-2 px-2 py-1 text-xs font-bold rounded ${
                   course.badge === 'Hot' ? 'bg-red-500 text-white' : 
